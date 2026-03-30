@@ -1,38 +1,40 @@
 # knowledge-graph-product-classification
 Knowledge graph for product classification and recommendation using OWL, RDF, and SPARQL with semantic reasoning.
-# 🛍️ Product Knowledge Graph – Classification & Recommendation System
+# Product Knowledge Graph – Classification & Recommendation System
+## 📁 Data
+The RDF dataset is available in the `data/` folder.
 
-## 📌 Project Overview
+## Project Overview
 This project builds a knowledge graph to model products and automatically classify them using semantic reasoning.
 
 The system uses OWL ontology and RDF data to represent product attributes and relationships, and SPARQL queries to retrieve recommendations.
 
-## 🎯 Objectives
+## Objectives
 - Structure product data using a knowledge graph
 - Apply rule-based reasoning for classification
 - Simulate a recommendation system using SPARQL
 
-## 🧠 Key Features
+## Key Features
 - Automatic classification (e.g., Vegan, Premium)
 - Semantic relationships between products and attributes
 - Query-based recommendation system
 
-## 🛠️ Technologies
+## Technologies
 - OWL / RDF
 - Protégé
 - SPARQL
 
-## 📂 Structure
+## Structure
 - ontology/ → product ontology
 - data/ → RDF dataset
 - queries/ → recommendation queries
 
-## 🤖 AI Logic
+## AI Logic
 The system infers product categories based on logical rules:
 - Products without animal ingredients → Vegan
 - High price products → Premium
 
-## 🔍 Example Query
+## Example Query
 
 ```sparql
 SELECT ?product
